@@ -2,12 +2,9 @@ import SwiftUI
 
 
 struct ContentView: View {
-//    @StateObject private var remote = TVRemote()
     @ObservedObject var remote: TVRemote
-//    @State private var ip = "192.168.178.23"
     @Binding var ip: String
     @Binding var useTLS: Bool
-//    @State private var useTLS = false
     @State private var textToSend = ""
     @State private var channelNumber = ""
     @State private var showingKeyboardSheet = false
