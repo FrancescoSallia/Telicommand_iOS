@@ -5,6 +5,13 @@ Die App verbindet sich über das lokale Netzwerk mit deinem Fernseher und bietet
 
 ---
 
+<p align="center">
+  <img src="./screenshots/launchscreen.png" width="230"> 
+  <img src="./screenshots/remote.png" width="230"> 
+  <img src="./screenshots/keyboard.png" width="230">
+  <img src="./screenshots/connection.png" width="230">
+</p>
+
 ## ✨ Features
 - 🔗 Verbindung zum Samsung Smart TV über **WebSocket (Samsung Remote API)**
 - 🎛 Steuerung von Tasten wie Lautstärke, Kanäle und Navigation (`KEY_*`-Kommandos)
