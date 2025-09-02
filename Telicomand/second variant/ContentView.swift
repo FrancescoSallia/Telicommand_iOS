@@ -84,9 +84,10 @@ struct ContentView: View {
                                 Image(systemName: "house.fill")
                                 .resizable()
                                 .frame(width: 25, height: 25)
+                                .tint(.white)
                             }
                             .frame(width: 60, height: 60)
-                            .background(Circle().fill(Color.primary))
+                            .background(Circle().fill(Color.orange))
                         }
                     }
 
